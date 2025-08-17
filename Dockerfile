@@ -1,4 +1,4 @@
-FROM postgres:15.0
+FROM postgres:15.14
 
 RUN apt-get update -y
 RUN apt-get install -y iputils-ping
